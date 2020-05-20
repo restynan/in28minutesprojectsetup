@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 //http://localhost:8081/actuator/refresh
 @RestController
 @RefreshScope
-@EnableDiscoveryClient
 public class LimitsConfigurationController {
     @Autowired
     private Configuration configuration;
@@ -30,6 +29,8 @@ public class LimitsConfigurationController {
     @HystrixCommand(fallbackMethod = "fallbackRetrieveConfiguration")
     public LimitsConfiguration retrieveConfiguration()
     {
+
+
         throw new RuntimeException("Not available");
     }
     public LimitsConfiguration fallbackRetrieveConfiguration()

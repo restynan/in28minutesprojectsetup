@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.core.env.Environment;
 
 import java.math.BigDecimal;
+
+//http://localhost:8000/currency-exchange/from/USD/to/INR
 //calling through the zuul gate way
 //http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR
 @RestController
