@@ -18,6 +18,13 @@ public class KafkaConsumer {
     public void consume(String message) {
         System.out.println("Consumed message: " + message);
     }
+
+
+
+    @KafkaListener(topics = "final-topic", groupId = "group_one", containerFactory = "kafkaListenerContainerFactory")
+public void consumeUserMessage(@Payload Container msg, @Headers MessageHeaders headers) throws IOException {
+    System.out.println("received data in Consumer One ="+ msg.getMessageTypes());
+}
 */
 
 
