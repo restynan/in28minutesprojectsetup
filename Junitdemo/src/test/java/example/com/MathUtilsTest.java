@@ -3,6 +3,8 @@ package example.com;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
+
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MathUtilsTest {
     MathUtils mathUtils;
@@ -34,6 +36,19 @@ class MathUtilsTest {
     }
 
     @Test
+    @DisplayName("Multiply Method")
+    void testMultiply() {
+        //assertEquals(4, mathUtils.multiply(2, 2), "The add method should add two numbers");
+
+        assertAll(
+                ()->assertEquals(4, mathUtils.multiply(2, 2), "The add method should add two numbers"),
+        ()->assertEquals(0, mathUtils.multiply(0, 2), "The add method should add two numbers"),
+                ()->assertEquals(-2, mathUtils.multiply(-1, 2), "The add method should add two numbers")
+        );
+    }
+
+
+    @Test
     void testComputeCircleRadius() {
 
         double expected = 254.34;
@@ -46,11 +61,17 @@ class MathUtilsTest {
 
     @Test
     void testDivide() {
-
+        boolean isServerUp= false;
+         assumeTrue(isServerUp);
 
         assertThrows(ArithmeticException.class, () -> mathUtils.divide(1, 0), "Divide by zero should throw");
 
     }
-
+    @Test
+    @Disabled
+    @DisplayName("TDD Method should not run")
+    void testDisabled() {
+        fail("This test is disabled");
+    }
 
 }
