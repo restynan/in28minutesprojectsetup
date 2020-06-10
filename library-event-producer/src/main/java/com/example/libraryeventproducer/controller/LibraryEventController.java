@@ -27,7 +27,7 @@ public class LibraryEventController {
         libraryEvent.setLibraryEventType(LibraryEventType.NEW);
         //asychronous approach 2
         libraryEventProducer.sendLibraryEventApproach2(libraryEvent);
-        
+
         return ResponseEntity.status(HttpStatus.CREATED).body(libraryEvent);
     }
 
