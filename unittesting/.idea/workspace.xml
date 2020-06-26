@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5a1e772-9043-4777-a02b-1e8a0434f3a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../unit-testing/src/main/java/com/example/unittesting/service/BusinessImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-event-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library-event-producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-event-producer/src/main/java/com/example/libraryeventproducer/config/AutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-event-producer/src/main/java/com/example/libraryeventproducer/controller/LibraryEventController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-event-producer/src/main/java/com/example/libraryeventproducer/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-event-producer/src/main/java/com/example/libraryeventproducer/domain/LibraryEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-event-producer/src/main/java/com/example/libraryeventproducer/domain/LibraryEventType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-event-producer/src/main/java/com/example/libraryeventproducer/producer/LibraryEventProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-config-server" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-config-server" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d8zMEYOwt7g7sl0HMct6XC0Fe1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../unit-testing/pom.xml" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnittestingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="unit-testing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.unittesting.UnittestingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5a1e772-9043-4777-a02b-1e8a0434f3a5" name="Default Changelist" comment="" />
+      <created>1591821458067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591821458067</updated>
+      <workItem from="1591821471963" duration="1327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1591822868036">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591822868036" />
+    <state x="0" y="66" key="new project wizard" timestamp="1591822042053">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="66" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1591822042053" />
+  </component>
+</project>
